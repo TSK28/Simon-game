@@ -8,6 +8,11 @@ Rule:
 
 
 
+//for mobile
+if(screen.width < 500){
+    $("h1").after("<input type='text'>");
+}
+
 
 
 
